@@ -6,7 +6,7 @@ import os
 L = instaloader.Instaloader()
 
 # Login (if needed)
-L.login("mclicks_311", "Arun#0311")
+L.login("mclicks_311", "")
 
 # Choose the Instagram account to scrape
 profile = instaloader.Profile.from_username(L.context, "mclicks_311")
